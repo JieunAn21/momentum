@@ -25,7 +25,6 @@ function showName(text){
 function askName(){
     form.classList.add(SHOW_CN);
     form.addEventListener("submit", handleSubmit);
-    saveName();
 }
 
 function loadName(){
